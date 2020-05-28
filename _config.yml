@@ -1,10 +1,31 @@
 # Site
 title:              Dieu My T. Nguyen
-bio:                'Computational Biology'
-description:        "Computational Biology"
+bio:                'Computer Science'
+description:        "Computer Science"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+
+# Comments
+disqus_shortname:   default
+
+# Social
+analytics-id:       "default"
+twitter:            default
+facebook:           default
+instagram:          default
+github:             dieumynguyen
+linkedin:           dieu-my-nguyen-333a2418a
+
+# personal
+location:           Redmond, WA, USA
+phone:              +1-602-388-0340
+email:              dieu.nguyen@colorado.edu # change this to your email to receive free emails for your contact submissions via Slapform.com
+
+# Other
+background_image:   /images/bg.jpg
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+slapform_thankyou_page: /thank-you
 
 defaults:
 - scope:
@@ -29,21 +50,6 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-
-# Comments
-disqus_shortname:   default
-
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             dieumynguyen
-
-# personal
-location:           CO, USA
-phone:              Display an appetite for it... - Nicholas StrausfeldDisplay an appetite for it... - Nicholas StrausfeldDisplay an appetite for it... - Nicholas StrausfeldDisplay an appetite for it... - Nicholas StrausfeldDisplay an appetite for it... - Nicholas StrausfeldDisplay an appetite for it... - Nicholas Strausfeld
-email:              dieu.nguyen@colorado.edu
 
 # Gems
 gems:

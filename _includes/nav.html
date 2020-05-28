@@ -1,11 +1,29 @@
-<ul class="links">
-  <!-- <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li> -->
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  <li class="{% if page.url contains '/page/' %} active {% endif %}"><a href="https://drive.google.com/file/d/1SngZlymoFDurc_Sv67U6uVxokb5b7fL8/view?usp=sharing" target="_blank">CV</a></li>
-  <li class="{% if page.url contains '/research/' %} active {% endif %}"><a href="{{ "/research/" | absolute_url }}">Research</a></li>
+<!-- <ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Theme Home</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li>
+</ul>
 
-  <!-- photo grid -->
-  <li class="{% if page.url contains '/photo/' %} active {% endif %}"><a href="{{ "/photo/" | absolute_url }}">Extraneous</a></li>
+<ul class="icons">
+  <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+  <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+  <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+  <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+</ul> -->
 
+
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+  <!-- <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li> -->
+  <li class="{% if page.url contains '/photos/' %} active {% endif %}"><a href="{{ "/photos/" | absolute_url }}">ETC</a></li>
+  <li class="{% if page.url contains '/page/' %} active {% endif %}"><a href="https://drive.google.com/file/d/1h--ljDfxkypvj6LtQpYY4wC2Vyuaq6Bl/view?usp=sharing" target="_blank">CV</a></li>
+</ul>
+
+
+<ul class="icons alt">
+  <!-- <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li> -->
+  <!-- <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li> -->
+  <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/{{site.linkedin}}" class="icon fa-linkedin" rel="nofollow"><span class="label">LinkedIn</span></a></li>
+  <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
 </ul>

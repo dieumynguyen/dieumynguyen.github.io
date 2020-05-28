@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+	</head>
+
+
+  <style>
+  /*
+   CSS for the main interaction
+  */
+  .accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+
+  .accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
+
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    overflow: visible;
+  }
+
+  .accordion label {
+    display: block;
+  }
+
+  /*
+   Styling
+  */
+  /* body {
+    font: 16px/1.5em;
+    color: #333;
+    font-weight: 300;
+  } */
+
+  .accordion {
+    margin-bottom: 1em;
+  }
+
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    padding: 0px;
+    /* border: 1px solid #e8e8e8; */
+    border-top: 0;
+  }
+
+  .accordion .handle {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.2em;
+  }
+
+  .accordion label {
+    color: #333;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 1.0em;
+    padding: 15px;
+    background: #e8e8e8;
+  }
+
+  .accordion label:hover,
+  .accordion label:focus {
+    background: #d8d8d8;
+  }
+
+  .accordion .handle label:before {
+    font-family: 'fontawesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.0em;
+    line-height: 1.556em;
+    vertical-align: middle;
+  }
+
+  .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+    content: "\f078";
+  }
+  </style>
+
+
+
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Post -->
+					<section class="post">
+						<p>{{content}}</p>
+					</section>
+
+					<!-- Footer -->
+						<!-- <footer>
+              <ul class="actions">
+								<li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
+              </ul>
+						</footer> -->
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+			<!-- Scripts -->
+			{% include scripts-main.html %}
+			{% include tracking.html %}
+
+	</body>
+</html>
