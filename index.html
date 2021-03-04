@@ -59,10 +59,11 @@ old writings here to remind myself of an old fire. </p>
 
 <!-- RESEARCH OVERVIEW -->
 <h2 style="text-align:left;">Research Overview</h2>
-<h3 style="text-align:left;"> FLOW-MEDIATED COLLECTIVE OLFACTORY COMMUNICATION IN HONEY BEE SWARMS (2020)</h3>
-<h3 style="text-align:left; color:green;"> <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/2020.05.23.112540v1/"> BIORXIV PREPRINT </a></h3>
+
+<h3 style="text-align:left;"> FLOW-MEDIATED COLLECTIVE OLFACTORY COMMUNICATION IN HONEY BEE SWARMS (PNAS)</h3>
+<!-- <h3 style="text-align:left; color:green;"> <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/2020.05.23.112540v1/"> BIORXIV PREPRINT </a></h3> -->
 <div class="box">
-  <p><b>ABSTRACT:</b> Honey bee swarms are a landmark example of collective behavior. To become a coherent swarm, bees locate their queen by tracking her pheromones, but how can distant individuals exploit these chemical signals which decay rapidly in space and time? Here, we combine a novel behavioral assay with the machine vision detection of organism location and scenting behavior to track the search and aggregation dynamics of the honey bee <i>Apis mellifera</i> L. We find that bees collectively create a communication network to propagate pheromone signals, by arranging in a specific spatial distribution where there is a characteristic distance between individuals and a characteristic direction in which individuals broadcast the signals. To better understand such a flow-mediated directional communication strategy, we connect our experimental results to an agent-based model where virtual bees with simple, local behavioral rules, exist in a flow environment. Our model shows that increased directional bias leads to a more efficient aggregation process that avoids local equilibrium configurations of isotropic communication, such as small bee clusters that persist throughout the simulation. Our results highlight a novel example of extended classical stigmergy: rather than depositing static information in the environment, individual bees locally sense and globally manipulate the physical fields of chemical concentration and airflow. </p>
+  <p><b>ABSTRACT:</b> Honey bee swarms are a landmark example of collective behavior. To become a coherent swarm, bees locate their queen by tracking her pheromones, but how can distant individuals exploit these chemical signals which decay rapidly in space and time? Here, we combine a novel behavioral assay with the machine vision detection of organism location and scenting behavior to track the search and aggregation dynamics of the honey bee <i>Apis mellifera</i> L. We find that bees collectively create a communication network to propagate pheromone signals, by arranging in a specific spatial distribution where there is a characteristic distance between individuals and a characteristic direction in which individuals broadcast the signals. To better understand such a flow-mediated directional communication strategy, we connect our experimental results to an agent-based model where virtual bees with simple, local behavioral rules, exist in a flow environment. Our model shows that increased directional bias leads to a more efficient aggregation process that avoids local equilibrium configurations of isotropic communication, such as small bee clusters that persist throughout the simulation. Our results highlight a novel example of extended classical stigmergy: rather than depositing static information in the environment, individual bees locally sense and globally manipulate the physical fields of chemical concentration and airflow. <a target="_blank" rel="noopener noreferrer" href="https://www.biorxiv.org/content/10.1101/2020.05.23.112540v1/"> [BIORXIV PREPRINT 2020] </a></p>
 </div>
 
 <div class="box">
@@ -80,7 +81,8 @@ old writings here to remind myself of an old fire. </p>
   <p> Agent-based model of bees following simple, local behavior rules to find and swarm around the queen.
   They collectively use the scenting behavior to create a pheromone communication network. [Left] Simulation with
   model parameters that lead to successful swarming via signal propagation. [Right] Simulation with parameters that lead to the bees
-  being stuck in small clusters for (supposed) eternity, reminiscent of
+  being stuck in small clusters for (supposed) eternity. Other outcomes include 1) no bees ever activated to scent and 2) bees finding
+  the queen only via random walking close to her, reminiscent of
   <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Diffusion-limited_aggregation">diffusion-limited aggregation </a>. </p>
   <div class="box alt">
     <div class="row 50% uniform">
@@ -96,10 +98,19 @@ old writings here to remind myself of an old fire. </p>
         <img src="{{"images/phase_1.jpg" | absolute_url }}" alt="Static Image" data-alt="images/phase_1.gif"/>
       </figure>
       </div>
-      <!-- <div class="6u"><span class="image fit"><img src="{{ "/images/phase_3.gif" | absolute_url }}" alt="" /></span></div>
-      <div class="6u"><span class="image fit"><img src="{{ "/images/phase_1.gif" | absolute_url }}" alt="" /></span></div> -->
     </div>
   </div>
+</div>
+
+
+
+<h3 style="text-align:left;"> ROBUSTNESS OF COLLECTIVE SCENTING IN THE PRESENCE OF PHYSICAL OBSTACLES (SWARM2021)</h3>
+<div class="box">
+  <p><b>ABSTRACT:</b> Honey bees (<i>Apis mellifera</i>) aggregate around the queen by collectively organizing a communication network to propagate volatile pheromone signals. Our previous study shows that individual bees scent to emit pheromones and fan their wings to direct the signal flow, creating an efficient search and aggregation process. In this work, we introduce environmental stressors in the form of physical obstacles that partially block pheromone signals and prevent a wide open path to the queen. We employ machine learning methods to extract data from the experimental recordings, and show that in the presence of an obstacle that blocks most of the path to the queen, the bees need more time but can still effectively employ the collective scenting strategy to overcome the obstacle and aggregate around the queen. Further, we increase the complexity of the environment by presenting the bees with a maze to navigate to the queen. The bees require more time and exploration to form a more populated communication network. Overall, we show that given volatile pheromone signals and only local communication, the bees can collectively solve the swarming process in a complex unstructured environment with physical obstacles. </div>
+
+<div class="box">
+  <p>Snapshots of: A control experiment without any physical obstacles, an experiment where the bees are placed on one side of a bar obstacle, and an experiment where the bees are placed in a maze with a caged queen at the end of the correct path.</p>
+  <center><img src="/images/obstacles.png" width="600" alt="Obstacles" class="center"/></center>
 </div>
 
 
@@ -115,6 +126,11 @@ Sans teeth, sans eyes, sans taste, sans everything. <br>
 </blockquote>
 
 <blockquote style="text-align:left;">
+If our impulses were confined to hunger, thirst, and desire, we might be nearly free; but now we are moved by every wind that blows... <br>
+(Mary Shelley, Frankenstein)
+</blockquote>
+
+<blockquote style="text-align:left;">
 I studied a minute, sort of holding my breath, and then says to myself:<br>
 "All right, then, I'll go to hell"- and tore it up. <br>
 (Mark Twain, The Adventures of Huckleberry Finn)
@@ -124,6 +140,11 @@ I studied a minute, sort of holding my breath, and then says to myself:<br>
 For me, it is far better to grasp the Universe as it really is than to
 persist in delusion, however satisfying and reassuring. <br>
 (Carl Sagan, The Demon-Haunted World)
+</blockquote>
+
+<blockquote style="text-align:left;">
+They bloom and then they die. <br>
+(Julia Sweeney)
 </blockquote>
 
 <blockquote style="text-align:left;">
