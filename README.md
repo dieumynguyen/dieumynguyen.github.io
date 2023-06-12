@@ -1,4 +1,5 @@
-## Credits
+## Theme Credits
+
 ### Original README from HTML5 UP
 ```
 Massively by HTML5 UP
